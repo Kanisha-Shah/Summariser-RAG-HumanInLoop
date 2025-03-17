@@ -2,6 +2,11 @@
 An AI-driven tool that extracts text from **PDF files**, generates **summaries**, detects **errors**, and allows 
 **human-in-the-loop feedback** to refine the results.
 
+![UI](Screenshots/Uploaded-PDF.png)
+
+![UI](Screenshots/Summarised-Output.png)
+
+
 ## **🚀 Features**
 - ✅ **Upload PDFs** and display them directly in the UI.
 - ✅ **Text Extraction** using `pdf-parse` and `Tesseract.js` (for scanned images).

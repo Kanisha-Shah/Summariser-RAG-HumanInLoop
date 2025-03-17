@@ -1,0 +1,136 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, grey, orange);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* Main Container */
+.container {
+  width: 100%;
+  max-height: 90vh;
+  max-width: 900px; /* Ensures content is not too wide */
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  overflow-y: auto;
+
+  /* ✅ Centers the container */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Upload Section */
+.upload-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease-in-out;
+}
+
+/* Upload Button */
+.upload-btn {
+  background-color: #28a745;
+  color: white;
+}
+.upload-btn:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+/* PDF Viewer */
+.pdf-container {
+  width: 100%;
+  height: 500px;
+  border: 1px solid #ddd;
+  overflow: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  display: flex;
+  background: #f8f9fa;
+}
+
+/* Generate Summary Button */
+.summarize-btn {
+  background-color: #007bff;
+  color: white;
+  margin-top: 20px;
+}
+.summarize-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Summary Box */
+.summary-box {
+  width: 90%;
+  background: #ffffff;
+  border-left: 5px solid #007BFF;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pdf-page-container {
+  margin-bottom: 10px; /* Adds spacing between pages */
+  display: flex;
+  justify-content: center;
+}
+
+/* Feedback Buttons */
+.feedback-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.approve-btn {
+  background-color: #28a745;
+  color: white;
+}
+.approve-btn:hover {
+  background-color: #218838;
+}
+
+.regenerate-btn {
+  background-color: #ffc107;
+  color: black;
+}
+.regenerate-btn:hover {
+  background-color: #e0a800;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}

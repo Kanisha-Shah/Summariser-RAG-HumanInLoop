@@ -1,0 +1,106 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fc;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* Upload Section */
+.upload-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  margin-top: 50px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Upload Button */
+.upload-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+.upload-btn:hover {
+  background-color: #45a049;
+}
+
+/* Summarize Button */
+.summarize-btn {
+  background-color: #007BFF;
+  color: white;
+}
+.summarize-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Summary Box */
+.summary-box {
+  background: #f8f9fa;
+  border-left: 5px solid #007BFF;
+  padding: 15px;
+  margin-top: 20px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+/* Feedback Buttons */
+.feedback-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.approve-btn {
+  background-color: #28a745;
+  color: white;
+}
+.approve-btn:hover {
+  background-color: #218838;
+}
+
+.regenerate-btn {
+  background-color: #ffc107;
+  color: black;
+}
+.regenerate-btn:hover {
+  background-color: #e0a800;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}
